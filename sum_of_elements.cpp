@@ -1,4 +1,4 @@
-//1st --Program to find sum of elements in a given array
+//2nd --Program to find sum of elements in a given array
 #include<iostream>
 #include<conio.h>
 using namespace std;
