@@ -1,5 +1,5 @@
 //linked list creating and traversal
-#include<iostream>
+
 #include<stdio.h>
 #include<conio.h> 
 //decaring a linked list
@@ -10,8 +10,10 @@ struct Node
 };
 void printlist(struct Node *node)
 {while(node!=NULL)
+{
 printf("%d \t",node->data);
 node=node->next;
+}
 }
 int main()
 {struct Node *head=NULL;
